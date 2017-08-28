@@ -5,18 +5,32 @@ from __future__ import unicode_literals
 AUTHOR = 'calvin.zhang'
 SITENAME = "zjlog is zj'blog"
 SITEURL = ''
+PATH = 'content'
 
 # theme and plugins config
-THEME = "./pelican-themes/pelican-elegant" 
+THEME = "./themes/pelican-elegant" 
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = [ './plugins/plugins' ]
 PLUGINS = ['ipynb.markup']
-#IPYNB_IGNORE_CSS=True
 
-PATH = 'content'
+# About & project
+
+LANDING_PAGE_ABOUT = {
+    "title":"胆战心惊的小程序员",
+    "details":"hello"
+}
+
+PROJECTS = [{
+    'name': 'Logpad + Duration',
+    'url': 'https://github.com/talha131/logpad-plus-duration#logpad--duration',
+    'description': 'Vim plugin to emulate Windows Notepad logging feature,'
+    ' and log duration of each entry'},
+    {'name': 'Elegant Theme for Pelican',
+    'url': 'http://oncrashreboot.com/pelican-elegant',
+    'description': 'A clean and distraction free theme, with search and a'
+    ' lot more unique features, using Jinja2 and Bootstrap'}]
 
 TIMEZONE = 'Asia/Shanghai'
-
 DEFAULT_LANG = 'zh'
 
 # Feed generation is usually not desired when developing
