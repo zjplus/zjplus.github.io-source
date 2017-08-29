@@ -11,7 +11,21 @@ PATH = 'content'
 THEME = "./themes/pelican-elegant" 
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = [ './plugins/plugins' ]
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['ipynb.markup','tipue_search','sitemap']
+SITEMAP = {                                                                                         
+    'format': 'xml',                                                                                
+    'priorities': {                                                                                 
+        'articles': 1,                                                                              
+        'indexes': 0.7,                                                                             
+        'pages': 0.5                                                                                
+    },                                                                                              
+    'changefreqs': {                                                                                
+        'articles': 'always',                                                                       
+        'indexes': 'always',                                                                        
+        'pages': 'always'                                                                           
+    }                                                                                               
+} 
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 
 # About & project
 
