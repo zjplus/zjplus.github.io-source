@@ -30,7 +30,7 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 # About & project
 
 LANDING_PAGE_ABOUT = {
-    "title":"胆战心惊的小程序员",
+    "title":"数据挑山工",
     "details":"hello"
 }
 
