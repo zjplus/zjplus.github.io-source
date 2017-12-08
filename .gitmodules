@@ -1,3 +1,9 @@
 [submodule "zjplus.github.io"]
 	path = zjplus.github.io
 	url = git@github.com:zjplus/zjplus.github.io.git
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git
+[submodule "themes/pelican-elegant"]
+	path = themes/pelican-elegant
+	url = git@github.com:zjplus/pelican-elegant.git

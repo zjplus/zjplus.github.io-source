@@ -10,7 +10,7 @@ PATH = 'content'
 # theme and plugins config
 THEME = "./themes/pelican-elegant" 
 MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = [ './plugins/plugins' ]
+PLUGIN_PATHS = [ './plugins' ]
 PLUGINS = ['ipynb.markup','tipue_search','sitemap']
 SITEMAP = {                                                                                         
     'format': 'xml',                                                                                
