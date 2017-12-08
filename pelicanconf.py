@@ -12,6 +12,7 @@ THEME = "./themes/pelican-elegant"
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = [ './plugins' ]
 PLUGINS = ['ipynb.markup','tipue_search','sitemap','extract_toc']
+STATIC_PATHS = ['theme/images', 'images']
 SITEMAP = {                                                                                         
     'format': 'xml',                                                                                
     'priorities': {                                                                                 
