@@ -2,13 +2,13 @@
 ##
 # This section should match your Makefile
 ##
-PY=${PY:-python3}
+PY=${PY:-python}
 PELICAN=${PELICAN:-pelican}
 PELICANOPTS=
 
 BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
-OUTPUTDIR=$BASEDIR/output
+OUTPUTDIR=$BASEDIR/zjplus.github.io
 CONFFILE=$BASEDIR/pelicanconf.py
 
 ###
