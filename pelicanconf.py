@@ -11,7 +11,7 @@ PATH = 'content'
 THEME = "./themes/pelican-elegant" 
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = [ './plugins' ]
-PLUGINS = ['ipynb.markup','tipue_search','sitemap']
+PLUGINS = ['ipynb.markup','tipue_search','sitemap','extract_toc']
 SITEMAP = {                                                                                         
     'format': 'xml',                                                                                
     'priorities': {                                                                                 
